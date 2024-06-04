@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Malapad Melchor James Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="ul-class">
+      <li class="li-class">
+        <a href="https://avengears-ex11.netlify.app/">Index</a>
+      </li>
+      <li class="li-class dropdown">
+        <a class="drop-btn">Go to file...</a>
+        <div class="dropdown-content">
+          <a href="https://ferolinojasmin-ex11.netlify.app">
+            Ferolino, Jasmin
+          </a>
+          <a href="https://japitanajohnwalter-ex11.netlify.app/">
+            Japitana, John Walter
+          </a>
+          <a href="https://santosakishagelsey-ex11.netlify.app/">
+            Santos, Akisha Gelsey
+          </a>
+        </div>
+      </li>
+    </ul>
+    <div class="name">
+      <h1>Malapad Melchor James</h1>
+    </div>
+    <div>
+      <h2>My interest and hobbies</h2>
+      <ul>
+        <li>playing volleyball</li>
+        <li>cooking</li>
+        <li>listening to music</li>
+        <li>reading books</li>
+        <li>playing guitar</li>
+      </ul>
+    </div>
+    <div class="work">
+      <h2>My work</h2>
+      <ol>
+        <li><a href="#">Work 1</a></li>
+        <li><a href="#">work 2</a></li>
+        <li><a href="#">work 3</a></li>
+        <li><a href="#">work 4</a></li>
+        <li><a href="#">work 5</a></li>
+      </ol>
+    </div>
+    <div>
+      <h2>Testimonials</h2>
+      <ul>
+        <li>amazing work -walter</li>
+        <li>great job as always -akish</li>
+        <li>you're the best -jasmin</li>
+      </ul>
+    </div>
+    <div class="gallery">
+      <h2>Gallery</h2>
+      <img src="media/d-day.jpg" />
+      <img src="media/picture_1.png" />
+      <img src="media/picture_2.jpg" />
+      <img src="media/picture_3.png" />
+      <img src="media/picture_4.png" />
+      <img src="media/picture_5.png" />
+    </div>
+    <div>
+      <div class="my_goals">
+        <h2>My Goals</h2>
+        <ul>
+          <li>To Graduate</li>
+          <li>To be a game developer</li>
+          <li>To be successful businessman</li>
+          <li>To have a healty life</li>
+        </ul>
+        <form class="container">
+          <div class="upper">
+            <label>name</label>
+            <input type="text" name="name" id="input_01" />
+          </div>
+          <div class="comment">
+            <label>Message</label>
+            <textarea name="comment" cols="50" rows="20" id="textarea_01">
+            </textarea>
+          </div>
+          <div class="comment-btn">
+            <button id="button_01" disabled>comment</button>
+          </div>
+        </form>
+
+        <div class="comment-area">
+          <ul>
+            <li>Hope you'll reach it! by: akisha</li>
+            <li>Believe it! by: walter</li>
+            <li>praying for your goals by:jasmin</li>
+          </ul>
+        </div>
+
+        <script src="javascript.js"></script>
+      </div>
+    </div> 
+    
+    <form class="container">
+      <h2>Contact Me</h2>
+      <div class="upper">
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label>Fullname</label>
+          <input type="text" name="fullname" />
+        </div>
+        <div>
+          <label>Age</label>
+          <input type="number" name="age" />
+        </div>
+        <div>
+          <label>Subject</label>
+          <input type="text" name="subject" />
+        </div>
+      </div>
+      <div class="checkbox-container">
+        <label>Send me a copy</label>
+        <input type="checkbox" name="sendme" />
+      </div>
+      <div class="message-container">
+        <label>Message</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+      </div>
+      <div class="submit-container">
+        <input type="submit" />
+      </div>
+    </div>
+    <div class="comment-section">
+        <form id="comment_form">
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" 
+            name="full_name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" 
+            placeholder="Your Comment" required></textarea>
+
+            <button type="submit" 
+            id="comment_button" disabled>Comment</button>
+
+            <button id="sort_asc_button">Sort Ascending</button>
+            <button id="sort_desc_button">Sort Descending</button>
+        </form>
+    </div>
+  </div>
+    </form>
+  </body>
+</html>

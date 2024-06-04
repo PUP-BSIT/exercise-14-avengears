@@ -1,0 +1,150 @@
+body {
+  background-color: #96b6c5;
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  width: 200px;
+  height: 160px;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+.name {
+  background-color: #eee0c9;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  border-radius: 25px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.work {
+  background-color: #eee0c9;
+  border: 2px solid #495e57;
+  width: 250px;
+}
+
+a {
+  color: black;
+}
+
+.gallery {
+  background-color: #eee0c9;
+  margin-bottom: 1rem;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+}
+
+.ul-class {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #adc4ce;
+}
+
+.li-class {
+  float: left;
+}
+
+.li-class a,
+.drop-btn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li-class a:hover,
+.dropdown:hover .drop-btn {
+  background-color: #495e57;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f7f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0px;
+}
+
+.dropdown-content a {
+  color: #495e57;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f4ce14;
+  border-radius: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (max-width: 426px) {
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 426px) {
+  .upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+}
