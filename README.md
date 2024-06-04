@@ -3,3 +3,6 @@
 Group page URL: https://avengears-ex14.netlify.app/
 
 Japitana, John Walter URL: https://japitana-johnwalter-ex14.netlify.app/
+Ferolino, Jasmin URL:   https://ferolinojasmin-ex14.netlify.app
+Melchor, James URL:     https://malapadmelchorjames-ex14.netlify.app/
+Santos, Akisha Gelsey:  https://santosakishagelsey-ex14.netlify.app/
