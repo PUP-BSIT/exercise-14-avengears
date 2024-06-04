@@ -4,7 +4,7 @@
     <title>Malapad Melchor James Page</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
     <ul class="ul-class">
@@ -73,35 +73,32 @@
           <li>To Graduate</li>
           <li>To be a game developer</li>
           <li>To be successful businessman</li>
-          <li>To have a healty life</li>
+          <li>To have a healthy life</li>
         </ul>
         <form class="container">
           <div class="upper">
-            <label>name</label>
+            <label>Name</label>
             <input type="text" name="name" id="input_01" />
           </div>
           <div class="comment">
             <label>Message</label>
-            <textarea name="comment" cols="50" rows="20" id="textarea_01">
-            </textarea>
+            <textarea name="comment" cols="50" rows="20" id="textarea_01"></textarea>
           </div>
           <div class="comment-btn">
-            <button id="button_01" disabled>comment</button>
+            <button id="button_01" disabled>Comment</button>
           </div>
         </form>
 
         <div class="comment-area">
           <ul>
-            <li>Hope you'll reach it! by: akisha</li>
-            <li>Believe it! by: walter</li>
-            <li>praying for your goals by:jasmin</li>
+            <li>Hope you'll reach it! by: Akisha</li>
+            <li>Believe it! by: Walter</li>
+            <li>Praying for your goals by: Jasmin</li>
           </ul>
         </div>
-
-        <script src="javascript.js"></script>
       </div>
     </div> 
-    
+
     <form class="container">
       <h2>Contact Me</h2>
       <div class="upper">
@@ -133,25 +130,23 @@
       <div class="submit-container">
         <input type="submit" />
       </div>
-    </div>
-    <div class="comment-section">
-        <form id="comment_form">
-            <label for="full_name">Full Name:</label>
-            <input type="text" id="full_name" 
-            name="full_name" required>
-
-            <label for="comment">Comment:</label>
-            <textarea id="comment" 
-            placeholder="Your Comment" required></textarea>
-
-            <button type="submit" 
-            id="comment_button" disabled>Comment</button>
-
-            <button id="sort_asc_button">Sort Ascending</button>
-            <button id="sort_desc_button">Sort Descending</button>
-        </form>
-    </div>
-  </div>
     </form>
+
+    <div class="comment-section">
+      <form id="comment_form">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+    
+        <label for="comment">Comment:</label>
+        <textarea id="comment" placeholder="Your Comment" required></textarea>
+    
+        <button type="submit" id="comment_button" disabled>Comment</button>
+    
+        <button type="button" id="sort_asc_button">Sort Ascending</button>
+        <button type="button" id="sort_desc_button">Sort Descending</button>
+      </form>
+      <div id="comments_container"></div>
+    </div>
+    <script src="./javascript.js"></script>
   </body>
 </html>
