@@ -79,13 +79,11 @@ function renderComments() {
 }
 
 sortDropdown.addEventListener("change", renderComments);
-renderComments()
-
 async function searchCountry() {
-  const countryInput = document.getElementById('countryInput').value;
+  const country_input = document.getElementById('country_input').value;
   try {
       const res = await fetch(
-          `https://restcountries.com/v3.1/name/${countryInput}`);
+          `https://restcountries.com/v3.1/name/${country_input}`);
       if (!res.ok) {
           throw new Error('Network response was not ok');
       }
